@@ -6,11 +6,12 @@
   "dependencies": {
     "deep-email-validator": "^0.1.18",
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "smtp-client": "^0.4.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "aar",
   "license": "ISC"
